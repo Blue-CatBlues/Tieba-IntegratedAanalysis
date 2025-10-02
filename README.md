@@ -46,24 +46,28 @@ pip install scrapy pandas matplotlib seaborn scikit-learn jieba openpyxl
 ### 2️⃣ 运行爬虫
 ```bash
 scrapy crawl life
-输出结果将保存在 data/Tieba_output.xlsx
 ```
+输出结果将保存在 data/Tieba_output.xlsx
+
 ### 3️⃣ 分析数据
 ```bash
 python analyse/proportion_analysis.py
-输出分析结果为 data/统计结果_比例.xlsx
 ```
+输出分析结果为 data/统计结果_比例.xlsx
+
 ### 4️⃣ 可视化展示
 ```bash
-python analyse/visualization.py
-自动生成箱线图、柱状图、饼图等图表
+python analyse/visualization.py、
 ```
+自动生成箱线图、柱状图、饼图等图表
+
 ### 5️⃣ 机器学习分类
 ```bash
 python ml/classifier.py
 python ml/pairwise_analysis.py
-输出分类准确率、混淆矩阵与类别对比热力图
 ```
+输出分类准确率、混淆矩阵与类别对比热力图
+
 示例图表
 
 📦 贴吧关注人数与帖子数箱线图
